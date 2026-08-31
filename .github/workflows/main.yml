@@ -1,4 +1,4 @@
-```yaml
+
 name: Schedule Workflow
 
 on:
@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Print Message
-        run: |
+        run:
           echo "Welcome to Devops Course"
           echo "Current UTC time: $(date -u)"
-```
+
