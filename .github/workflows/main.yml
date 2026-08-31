@@ -1,13 +1,14 @@
+
 name: Schedule Workflow
 
 on:
   schedule:
-    - cron: "53 17 * * *"
+    - cron: "*/2 * * * *"
 
 jobs:
   Run-Script:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Print Message
         run: echo "Welcome to Devops Course"
