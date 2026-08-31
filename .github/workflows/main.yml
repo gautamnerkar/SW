@@ -2,8 +2,7 @@ name: Schedule Workflow
 
 on:
   schedule:
-    - cron: "15 18 * * *"
-  workflow_dispatch:
+    - cron: "21 18 * * *"
 
 jobs:
   Run-Script:
