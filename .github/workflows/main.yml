@@ -3,7 +3,7 @@ name: Schedule Workflow
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   Run-Script:
