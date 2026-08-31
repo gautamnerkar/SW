@@ -12,7 +12,6 @@ jobs:
 
     steps:
       - name: Print Message
-        run:
-          echo "Welcome to Devops Course"
-          echo "Current UTC time: $(date -u)"
+        run: date
+          
 
